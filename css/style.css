@@ -3,8 +3,8 @@
 /* CSS Document */
 body {
   background-color: #f6f5f5;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 ul {
@@ -72,10 +72,10 @@ a.nav-link {
     height: .25rem;
     border-radius: .25rem;
     bottom: 2px;
-    left: 0; 
-    right: 0; 
-    margin-left: auto; 
-    margin-right: auto; 
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
     border-bottom: .25rem solid #505050;
 }
 
@@ -115,9 +115,9 @@ a.nav-link {
   outline: none;
   margin: 0px 10px;
 }
+
 .text-container {
-  position: relative;
-  left: 10%;
+  margin-left: 10%;
   top: 42%;
   margin-bottom: 30px;
 }
@@ -213,7 +213,7 @@ about-myself{
 }
 
 .servies--caption {
-  
+
   font-family: calibri;
   font-weight: bold;
   color: #3e3d3d;
@@ -231,10 +231,7 @@ about-myself{
   margin: 50px 0px;
 }
 
-.box,
-.box-1,
-.box-2,
-.box-3 {
+.box{
   background-repeat: no-repeat;
   background-size: cover;
   box-shadow: 2px 2px 18px rgba(0, 0, 0, 0.3);
@@ -253,9 +250,7 @@ about-myself{
   background-image: url("/assets/images/servies-3.png");
 }
 
-.box .logo,
-.box-2 logo,
-.box-3 logo {
+.box .logo{
   width: 60px;
   height: 60px;
   display: flex;
@@ -363,7 +358,7 @@ about-myself{
 
 
 @media screen and (max-width:576px){
-        
+
     .my--name {
         font-size: 40px;
     }
@@ -389,7 +384,7 @@ about-myself{
 
     .about-text{
         width: 100%;
-        padding: 2px .75rem;   
+        padding: 2px .75rem;
     }
 
     .about--title{
@@ -400,7 +395,7 @@ about-myself{
         width: 30px !important;
         height: 30px !important;
         margin: 0px;
-        padding: 0px;        
+        padding: 0px;
     }
 
     .social i{
@@ -409,11 +404,11 @@ about-myself{
 }
 
 @media (min-width: 576.01px) and (max-width: 768px){
-    
+
     .my--name {
         font-size: 48px;
     }
-    
+
     .about-text{
         width: 100%;
         padding: 2px 1rem;
@@ -425,7 +420,7 @@ about-myself{
 }
 
 @media (min-width: 768.01px) and (max-width: 991.9px){
-    
+
     .about--title{
         font-size: 28px;
     }
