@@ -15,7 +15,7 @@
   });
 
   $(".my-work-carousel").owlCarousel({
-    autoplay: true,
+    autoplay: false,
     dots: true,
     loop: true,
     nav:true,
@@ -27,7 +27,7 @@
       600: {
         items: 2
       },
-      900: {
+      1000: {
         items: 3
       }
     }
