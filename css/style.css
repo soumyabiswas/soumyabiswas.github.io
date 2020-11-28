@@ -277,15 +277,26 @@ about-myself{
     top: -10px;
 }*/
 
-.box:nth-child(1n){
+.my-work-carousel .owl-item:nth-child(3n) .box{
   background-image: url("/assets/images/services-1.png");
 }
 
-.box:nth-child(2n) {
+.my-work-carousel .owl-item:nth-child(3n+1) .box{
   background-image: url("/assets/images/services-2.png");
 }
-.box:nth-child(3n) {
+
+.my-work-carousel .owl-item:nth-child(3n+2) .box{
   background-image: url("/assets/images/servies-3.png");
+}
+
+.box:nth-child(3n){
+    background-image: url("/assets/images/services-1.png");
+}
+.box:nth-child(3n+1){
+    background-image: url("/assets/images/services-2.png");
+}
+.box:nth-child(3n+2){
+    background-image: url("/assets/images/servies-3.png");
 }
 
 .box .logo{
