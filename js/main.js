@@ -216,7 +216,8 @@
   function aos_init() {
     AOS.init({
       duration: 1000,
-      once: true
+      once: true,
+      offset: 200,
     });
   }
   $(window).on('load', function() {

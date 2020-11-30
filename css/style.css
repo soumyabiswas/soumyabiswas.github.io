@@ -358,6 +358,13 @@ about-myself{
   margin: 0px 0px 20px 0px;
 }
 
+.box a {
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 400;
+}
+
 .box button {
   width: 100px;
   height: 30px;
@@ -365,6 +372,10 @@ about-myself{
   border: none;
   outline: none;
   border-radius: 5px;
+}
+
+.box a, .box a:hover{
+    color: #000;
 }
 
 .services .owl-nav, .services .owl-dots {

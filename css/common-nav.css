@@ -32,3 +32,12 @@ a.nav-link {
 #main{
     padding-top: 70px;
 }
+
+a.logo {
+    text-decoration: none !important;
+}
+
+
+a.logo:hover{
+    text-decoration: none !important;
+}

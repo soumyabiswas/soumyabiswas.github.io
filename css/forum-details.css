@@ -27,6 +27,7 @@
 
 body{
     /*background-color: #F6F5F5 !important;*/
+    background: #f6f6f6;
 }
 
 .fourboxes__single {
@@ -91,7 +92,7 @@ body{
     padding-right: .5rem;
     vertical-align: middle;
     font-weight: 900;
-    color: #BF4E4E;
+    color: #0d0d0d;
 }
 
 .styled-list li{
@@ -252,16 +253,21 @@ blockquote {
     margin-right: .2em
 }
 
-.button.button-red {
-    background-color: #AF2222;
-    border: 1px solid #9a1e1e;
+.button.button-black {
+    background-color: #0d0d0d;
+    border: 1px solid #0d0d0d;
     color: #fff;
     padding: .7em 1.2em;
     font-weight: 400
 }
 
-.button.button-red:focus, .button.button-red:hover {
-    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .15)
+.button.button-black:focus, .button.button-black:hover {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, .15);
+}
+
+a.button.button-black:hover{
+    text-decoration: none !important;
+    transform: scale(1.01);
 }
 
 .button:not(.button-icon) .fa, .button:not(.button-icon) .icon {
@@ -275,10 +281,6 @@ blockquote {
 
 .block-title a:hover, .social-icons.social-icons a:hover {
     color: #fff
-}
-
-body {
-    background: #f6f6f6
 }
 
 @media screen and (max-width: 1000px) {
@@ -587,14 +589,14 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .main-section {
     max-width: 850px;
-    padding: 50px;
+    padding: 20px 50px 50px;
     background-color: #fff;
     color: #333
 }
 
 @media screen and (max-width: 1000px) {
     .main-section {
-        padding: 30px 20px;
+        padding: 20px 20px 30px;
         margin: 0 auto
     }
 
@@ -790,14 +792,15 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 }
 
 .tech-tags a {
-    background-color: rgba(175, 34, 34, .8)
+    /*background-color: rgba(175, 34, 34, .8)*/
+    background-color: #0d0d0d;
 }
 
 .tech-tags a:hover {
     color: #eee !important;
     font-weight: 500;
     text-decoration: none;
-    background-color: rgba(149, 30, 30, 0.8);
+    background-color: #000000;
 }
 
 .home-section .home-section-inner {
@@ -968,6 +971,13 @@ html:not(.platform-mac) .site-sidebar .block-blog {
     text-transform: none
 }
 
+.project-category {
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 1.5;
+    text-transform: none
+}
+
 .technologies-title {
     font-size: 12px;
     text-transform: uppercase;
@@ -1060,8 +1070,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 
 .project-section .project-images img {
     max-width: 100%;
-    margin-right: 1em;
-    margin-bottom: 1em
+    /*margin-right: 1em;*/
+    /*margin-bottom: 1em*/
 }
 
 .col {
