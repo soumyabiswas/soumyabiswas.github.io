@@ -1,0 +1,34 @@
+nav {
+    background-color: #ffffff;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+a.nav-link {
+    font-family: myriad pro regular !important;
+    color: #505050 !important;
+    font-size: 15px !important;
+    font-weight: 700 !important;
+}
+
+.logo {
+    font-family: RoadTest;
+    color: #000000;
+    font-size: 22px;
+}
+
+.active {
+    color: #2d2a2a;
+    font-weight: bold;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#main{
+    padding-top: 70px;
+}
