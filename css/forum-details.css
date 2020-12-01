@@ -26,8 +26,8 @@
 }
 
 body{
-    /*background-color: #F6F5F5 !important;*/
-    background: #f6f6f6;
+    background-color: #F6F5F5 !important;
+    /*background: #F6F5F5;*/
 }
 
 .fourboxes__single {
@@ -53,6 +53,36 @@ body{
 
 .fourboxes__title {
     color: #000;
+}
+
+.back-to-top {
+    position: fixed;
+    display: none;
+    right: 15px;
+    bottom: 15px;
+    z-index: 99999;
+}
+
+.back-to-top i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    border-radius: 4px;
+    background: #0d0d0d;
+    color: #fff;
+    transition: all 0.4s;
+}
+
+.back-to-top i:hover {
+    background: #000000;
+    color: #fff;
+}
+
+.back-to-top a, .back-to-top a:hover{
+    text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -590,7 +620,8 @@ html:not(.platform-mac) .site-sidebar .block-blog {
 .main-section {
     max-width: 850px;
     padding: 20px 50px 50px;
-    background-color: #fff;
+    /*background-color: #fff;*/
+    background-color: transparent;
     color: #333
 }
 
